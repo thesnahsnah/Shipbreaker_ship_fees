@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <ProduceReferenceAssembly>False</ProduceReferenceAssembly>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Class1.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\..\..\Spiele\Steam\steamapps\common\Hardspace Shipbreaker\BepInEx\core\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="BBI.Unity.Game">
+      <HintPath>..\..\..\..\..\Spiele\Steam\steamapps\common\Hardspace Shipbreaker\Shipbreaker_Data\Managed\BBI.Unity.Game.dll</HintPath>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>..\..\..\..\..\Spiele\Steam\steamapps\common\Hardspace Shipbreaker\BepInEx\core\BepInEx.dll</HintPath>
+    </Reference>
+    <Reference Include="Carbon.Core">
+      <HintPath>..\..\..\..\..\Spiele\Steam\steamapps\common\Hardspace Shipbreaker\Shipbreaker_Data\Managed\Carbon.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\..\Spiele\Steam\steamapps\common\Hardspace Shipbreaker\Shipbreaker_Data\Managed\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\..\..\..\..\Spiele\Steam\steamapps\common\Hardspace Shipbreaker\Shipbreaker_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\..\..\Spiele\Steam\steamapps\common\Hardspace Shipbreaker\Shipbreaker_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\Spiele\Steam\steamapps\common\Hardspace Shipbreaker\Shipbreaker_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\..\..\Spiele\Steam\steamapps\common\Hardspace Shipbreaker\Shipbreaker_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

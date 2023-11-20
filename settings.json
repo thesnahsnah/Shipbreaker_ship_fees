@@ -1,0 +1,5 @@
+{
+  "enabled": true,
+  "cost_of_wrecks": 0.95,
+  "cost_of_spares":  1000000
+}

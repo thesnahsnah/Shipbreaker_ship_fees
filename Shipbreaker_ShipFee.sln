@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shipbreaker_ShipFee", "Shipbreaker_ShipFee.csproj", "{A8FA0A09-E8DB-4B37-9B36-DBBBF07FD638}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8FA0A09-E8DB-4B37-9B36-DBBBF07FD638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8FA0A09-E8DB-4B37-9B36-DBBBF07FD638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8FA0A09-E8DB-4B37-9B36-DBBBF07FD638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8FA0A09-E8DB-4B37-9B36-DBBBF07FD638}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3D8C8BA-97A5-48BD-A2E3-851EF343C865}
+	EndGlobalSection
+EndGlobal
