@@ -15,7 +15,7 @@ namespace PayShips
         public static void Load()
         {
             Ships_fee.LoggerInstance.LogInfo($"Ships_fee settings loading");
-            var settingsText = System.IO.File.ReadAllText(System.IO.Path.Combine(System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location), "settings.json"));
+            var settingsText = System.IO.File.ReadAllText(System.IO.Path.Combine(System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location), "Shipbreaker_ShipFee_settings.json"));
             settings = JsonConvert.DeserializeObject<Settings>(settingsText);
 
             settings.isFirstShiftWithCurrentShip = false;
