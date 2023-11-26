@@ -218,11 +218,11 @@ public class Ships_fee_hooks
                         (PayShips.Settings.settings.cost_of_abandoned_salvage * 100).ToString("N") + "%");
             }
             PayShips.Data.salvageAbandonedCost = 0;
+
+            ___m_TotalDeductionsText.text = (num1 + destroyedCost + abandonedCost).ToString("N");
             //
             //end most important changes
             //
-
-                ___m_TotalDeductionsText.text = num1.ToString("N");
             Main.EventSystem.Post((EventBase)CurrencyChangedEvent.Subtract(currency.CurrencyAssetID, (float)num1));
             double num8 = profile.DifficultyMode.StartingDebtAmount - (double)currency.Amount;
             ___m_NewDebtText.SetText(num8.ToString("N"));
