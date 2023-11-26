@@ -84,6 +84,7 @@ public class Ships_fee_hooks
                         string item = value2.ObjectName + value2.QualityWhenSalvaged;
                         if (hashSet.Contains(item)) continue;
 
+                        hashSet.Add(item);
                         if ((bool)reward.MassBasedValue)
                         {
                             float combinedValue = GetCombinedValue_float(salvageablesData, reward.CurrencyAssetID, value2.ObjectName, value2.QualityWhenSalvaged);
