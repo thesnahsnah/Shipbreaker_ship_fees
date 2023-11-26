@@ -1,7 +1,7 @@
 {
   "enabled": true,
   "cost_of_destroyed_salvage": 1,
-  "cost_of_abandoned_salvage": 0.75,
-  "profit_share_of_salvage": 0.04,
+  "cost_of_abandoned_salvage": 0.7,
+  "profit_share_of_salvage": 0.3,
   "cost_of_spares": 150000
 }
